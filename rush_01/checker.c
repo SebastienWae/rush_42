@@ -24,7 +24,6 @@ int check_up(t_table *table) {
   int last;
   int n;
 
-  if (table->map[1][0] == 2) {
     y = 0;
     while (y < 4) {
       x = 0;
@@ -43,8 +42,6 @@ int check_up(t_table *table) {
       y++;
     }
     return 1;
-  }
-  return 0;
 }
 
 int check_down(t_table *table) {
